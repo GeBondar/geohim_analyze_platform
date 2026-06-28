@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# Генерируемые артефакты (воспроизводятся через src/run_all.py)
+output/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
