@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>АгроГео — геохимические слои (Лосиный остров, Москва)</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <div id="sidebar">
+      <h1>АгроГео</h1>
+      <div class="sub" id="subtitle">Платформа сбора, хранения, анализа и визуализации геохимических данных почвы</div>
+
+      <div class="section-title">Слои: 7 реальных (SoilGrids) + 4 прибора</div>
+      <div class="metric-grid" id="metricBtns"></div>
+
+      <div class="legend" id="legend"></div>
+
+      <div class="section-title">Слои карты</div>
+      <label class="toggle-row"><input type="checkbox" id="togglePoints" checked> Точки измерений</label>
+      <label class="toggle-row"><input type="checkbox" id="toggleField" checked> Контур участка</label>
+
+      <div class="section-title">Сводка</div>
+      <div class="stats" id="stats"></div>
+
+      <div class="section-title">Корреляции метрик</div>
+      <ul class="corr" id="corr"></ul>
+
+      <div class="note" id="note"></div>
+    </div>
+    <div id="map"></div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="layers_data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
