@@ -30,6 +30,6 @@ html, body { height: 100%; margin: 0; font-family: 'Segoe UI', Arial, sans-serif
 .pill { display: inline-block; background: #17324d; border: 1px solid #2a4a6a; border-radius: 10px; padding: 1px 8px; font-size: 11px; margin: 2px 3px 2px 0; }
 .corr li { font-size: 12px; margin: 2px 0; }
 .note { font-size: 10.5px; color: #7f93a8; margin-top: 14px; line-height: 1.4; }
-.leaflet-popup-content { font-size: 12.5px; }
-.leaflet-popup-content table { border-collapse: collapse; }
-.leaflet-popup-content td { padding: 1px 8px 1px 0; }
+.maplibregl-popup-content { font-size: 12.5px; padding: 10px 12px; }
+.maplibregl-popup-content table { border-collapse: collapse; }
+.maplibregl-popup-content td { padding: 1px 8px 1px 0; }
