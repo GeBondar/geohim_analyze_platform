@@ -11,7 +11,13 @@
 > 🌐 **Демо (GitHub Pages):** включается через *Settings → Pages → Deploy from a branch →
 > ветка `main`, папка `/docs`*. Сайт самодостаточен (данные встроены в `docs/layers_data.js`).
 
-![Корреляционная матрица](assets/correlations.png)
+![Веб-интерфейс платформы](assets/fig_web_ui.png)
+
+## Архитектура
+
+![Архитектура](assets/fig_architecture.png)
+
+![ETL-конвейер](assets/fig_etl.png)
 
 ## Возможности
 
